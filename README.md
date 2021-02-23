@@ -1,8 +1,6 @@
 # API FLASK: Curriculum Vitae  de BLAS CAROFILE
-## Programas complementarios: 
-* Insomnia
 
-Este programa es como el postman, nos permite generar peticiones de tipo POST para testeado de los endpoints de la API.
+Poder verla entrando a: https://flaskapi-cv-carofile.herokuapp.com
 
 ## ENDPOINTS
 En las APIS a las rutas declaradas del navegador se les llama endpoints
@@ -16,7 +14,7 @@ El __endpoint__ de la ruta __"/curriculum"__ del  navegador ejecuta las funcione
 ~~~
 @app.route('/curriculum', methods=['GET'])
 ~~~
-En cambio POST permite enviar mensajes al backend a travez del cuerpo del request al endpoint con su metodo POST
+En cambio POST permite enviar mensajes a travez del cuerpo del request al endpoint con su metodo POST
 ~~~
 @app.route('/mensajes', methods=['POST'])
 ~~~
@@ -24,7 +22,7 @@ En cambio POST permite enviar mensajes al backend a travez del cuerpo del reques
 
 ## Test de insomnia con el endpoint mensajes
 
-Si hago un POST desde insomnia al endpoint sin cargar nada en el body sale un error 400 por el abort de la funcion.
+Si hago un POST desde Insomnia al endpoint sin cargar nada en el body sale un error 400 por el abort de la funcion.
 
 Bad Request
 Debe enviar su mensaje en el body del POST.

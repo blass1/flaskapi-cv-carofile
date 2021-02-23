@@ -22,25 +22,25 @@ def index():
 def cv():
 
     # Generamos el link de la foto utilizado la host url del metodo request
-    url_imagen = request.host_url + "static/foto.jpg"
+    url_imagen = request.host_url + "static/foto.jpeg"
     
     # Creo el diccionario (Clave-Valor) que se enviara en el GET
     cv = {
         "nombre" : "Blas Alfonso",
         "apellido" : "Carofile",
         "domicilio" : "Villa Urquiza(CABA), Argentina",
-        # Puedo enviar una lista que contiene otros diccionarios internamente
         "experiencia" : [{
-            "posicion" : "RIO",
-            "lugar" : "FAA",
+            "posicion" : "Responsable Informático de la Inspectoría General",
+            "lugar" : "Ministerio de Defensa, Fuerza Aérea Argentina",
             "desde" : "01/2010",
             "hasta" : "Actualidad",
-            "descripcion" : "Una pija"
+            "descripcion" : """ - Mantenimiento preventivo y correctivo de 38 puestos de trabajo tanto en software como hardware. Coordinación de tareas relacionadas a la telefonía, servidores, seguridad de la información e infraestructura de redes. Asesoramiento tecnológico en las áreas Administrativas , Control de gestión y Direcciones de Inspecciones.
+            """
         }],
         "educacion" : {
             "nivel" : "Terciario",
-            "titulo" : "Analista de sistemas",
-            "institucion" : "ESBA"
+            "titulo" : "Técnico Superior en Análisis de Sistemas",
+            "institucion" : "Instituto Universitario ESBA - Barrio Norte"
         },
         "intereses" : ["Python", "Desarrollo", "Games"],
         "contacto" : {
@@ -53,7 +53,7 @@ def cv():
     return jsonify(cv)
 
 
-""" Con POST envio informacion a la api, se la envio en el body del mensaje usando Insomnia
+""" Con POST envio informacion a la api en el body del mensaje usando Insomnia
 """
 @app.route('/mensajes', methods=['POST'])
 def contacto():
