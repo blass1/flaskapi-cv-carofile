@@ -26,8 +26,7 @@ def cv():
     
     # Creo el diccionario (Clave-Valor) que se enviara en el GET
     cv = {
-        "nombre" : "Blas Alfonso",
-        "apellido" : "Carofile",
+        "apellido_nombre" : "CAROFILE Blas Alfonso",
         "domicilio" : "Villa Urquiza(CABA), Argentina",
         "experiencia" : [{
             "posicion" : "Responsable Informático de la Inspectoría General",
@@ -53,7 +52,16 @@ def cv():
             "titulo" : "Técnico Mecánico con especialización en automatización y robótica",
             "institucion" : "Instituto Politécnico Modelo"
         }],
-        "intereses" : ["Python", "Desarrollo", "Games"],
+        "hobbies" : ["Programacion", "Desarrollo", "Ciencia"],
+        "tecnologias" : [{
+            "S.O" : "Linux (Ubuntu) + Windows",
+            "Control de versiones" : "Git + GitHub",
+            "web" : "HTML + CSS + BOOSTRAP",
+            "Python3 Frameworks" : """ Flask + Extensions(SQLAlchemy + Brcrypt + Mail + WTForms). Django (ORM + Sqlite3 / PostgreSQL), Django REST Framework""",
+            "Python3 Librerias" : "Pillow - OS - PyGame - Tkinter - OpenCV - Pandas - Matplotlib - gTTS - request",
+            "Entornos V" : "VirtualEnv",
+            "Otros breves conocimientos de lenguajes" : "Kotlin, Java, C#(.Net), JS"
+        }],
         "contacto" : {
             "linkedin" : "linkedin.com/in/carofile",
             "github" : "github.com/blass1"
