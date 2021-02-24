@@ -34,14 +34,25 @@ def cv():
             "lugar" : "Ministerio de Defensa, Fuerza Aérea Argentina",
             "desde" : "01/2010",
             "hasta" : "Actualidad",
-            "descripcion" : """ - Mantenimiento preventivo y correctivo de 38 puestos de trabajo tanto en software como hardware. Coordinación de tareas relacionadas a la telefonía, servidores, seguridad de la información e infraestructura de redes. Asesoramiento tecnológico en las áreas Administrativas , Control de gestión y Direcciones de Inspecciones.
+            "descripcion" : """ Encargado del mantenimiento preventivo y correctivo de 38 puestos de trabajo tanto en software como hardware. Coordinación de tareas relacionadas a la telefonía, servidores, seguridad de la información e infraestructura de redes. Asesoramiento tecnológico en las áreas Administrativas , Control de gestión y Direcciones de Inspecciones.
+            """
+        },{
+            "posicion" : "Diseñador de Autocad y Presupuestos",
+            "lugar" : "Ministerio de Defensa, Fuerza Aérea Argentina",
+            "desde" : "12-2008",
+            "hasta" : "01-2010",
+            "descripcion" : """Área de presupuestos de instalaciones industriales y comerciales de ventilación, aire acondicionado y sistemas termomecánicos. Diseño de instalaciones utilizando AUTOCAD.
             """
         }],
-        "educacion" : {
+        "educacion" : [{
             "nivel" : "Terciario",
             "titulo" : "Técnico Superior en Análisis de Sistemas",
             "institucion" : "Instituto Universitario ESBA - Barrio Norte"
-        },
+        },{
+            "nivel" : "Secundario Técnico",
+            "titulo" : "Técnico Mecánico con especialización en automatización y robótica",
+            "institucion" : "Instituto Politécnico Modelo"
+        }],
         "intereses" : ["Python", "Desarrollo", "Games"],
         "contacto" : {
             "linkedin" : "linkedin.com/in/carofile",
