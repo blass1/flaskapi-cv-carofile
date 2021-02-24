@@ -28,20 +28,20 @@ def cv():
     cv = {
         "apellido_nombre" : "CAROFILE Blas Alfonso",
         "domicilio" : "Villa Urquiza(CABA), Argentina",
+        "email" : "bcarofile@gmail.com",
+        "perfil" : """ Soy Analista de Sistemas y Desarrollador de software web con Python.Amante de la ciencia de datos, Pensamiento Crítico, Siempre dispuesto a aprender nuevas tecnologías. Me gusta frontar nuevos retos, tengo una personalidad reflexiva y disfruto el trabajo en equipo. Autodidacta, evangelista de tecnología y de las ciencias en general.""",
         "experiencia" : [{
             "posicion" : "Responsable Informático de la Inspectoría General",
             "lugar" : "Ministerio de Defensa, Fuerza Aérea Argentina",
             "desde" : "01/2010",
             "hasta" : "Actualidad",
-            "descripcion" : """ Encargado del mantenimiento preventivo y correctivo de 38 puestos de trabajo tanto en software como hardware. Coordinación de tareas relacionadas a la telefonía, servidores, seguridad de la información e infraestructura de redes. Asesoramiento tecnológico en las áreas Administrativas , Control de gestión y Direcciones de Inspecciones.
-            """
+            "descripcion" : """ Encargado del mantenimiento preventivo y correctivo de 38 puestos de trabajo tanto en software como hardware. Coordinación de tareas relacionadas a la telefonía, servidores, seguridad de la información e infraestructura de redes. Asesoramiento tecnológico en las áreas Administrativas , Control de gestión y Direcciones de Inspecciones."""
         },{
             "posicion" : "Diseñador de Autocad y presupuestos de instalaciones industriales",
             "lugar" : "B.P Instalaciones",
             "desde" : "12-2008",
             "hasta" : "01-2010",
-            "descripcion" : """Área de presupuestos de instalaciones industriales y comerciales de ventilación, aire acondicionado y sistemas termomecánicos. Diseño de instalaciones utilizando AUTOCAD.
-            """
+            "descripcion" : """Área de presupuestos de instalaciones industriales y comerciales de ventilación, aire acondicionado y sistemas termomecánicos. Diseño de instalaciones utilizando AUTOCAD."""
         }],
         "educacion" : [{
             "nivel" : "Terciario",
@@ -63,8 +63,8 @@ def cv():
             "Otros breves conocimientos de lenguajes" : "Kotlin, Java, C#(.Net), JS"
         }],
         "contacto" : {
-            "linkedin" : "linkedin.com/in/carofile",
-            "github" : "github.com/blass1"
+            "linkedin" : "Linkedin.com/in/carofile",
+            "github" : "https://github.com/blass1"
         },
         "foto" : url_imagen
     }
