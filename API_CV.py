@@ -37,8 +37,8 @@ def cv():
             "descripcion" : """ Encargado del mantenimiento preventivo y correctivo de 38 puestos de trabajo tanto en software como hardware. Coordinación de tareas relacionadas a la telefonía, servidores, seguridad de la información e infraestructura de redes. Asesoramiento tecnológico en las áreas Administrativas , Control de gestión y Direcciones de Inspecciones.
             """
         },{
-            "posicion" : "Diseñador de Autocad y Presupuestos",
-            "lugar" : "Ministerio de Defensa, Fuerza Aérea Argentina",
+            "posicion" : "Diseñador de Autocad y presupuestos de instalaciones industriales",
+            "lugar" : "B.P Instalaciones",
             "desde" : "12-2008",
             "hasta" : "01-2010",
             "descripcion" : """Área de presupuestos de instalaciones industriales y comerciales de ventilación, aire acondicionado y sistemas termomecánicos. Diseño de instalaciones utilizando AUTOCAD.
